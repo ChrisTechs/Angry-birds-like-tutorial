@@ -1,0 +1,29 @@
+[gd_scene load_steps=4 format=3 uid="uid://cvk3lv1ft65y7"]
+
+[ext_resource type="Script" uid="uid://lrxaeuipuwdx" path="res://levels/level.gd" id="1_gew73"]
+[ext_resource type="PackedScene" uid="uid://ce0miwm6bxguw" path="res://fennec_fox.tscn" id="2_bmgug"]
+[ext_resource type="PackedScene" uid="uid://4si5xviev6n4" path="res://crate.tscn" id="3_20opy"]
+
+[node name="level_3" type="Node"]
+script = ExtResource("1_gew73")
+
+[node name="fennec_fox" parent="." instance=ExtResource("2_bmgug")]
+position = Vector2(48, 98)
+
+[node name="fennec_fox2" parent="." instance=ExtResource("2_bmgug")]
+position = Vector2(128, 97)
+
+[node name="fennec_fox3" parent="." instance=ExtResource("2_bmgug")]
+position = Vector2(85, -6)
+
+[node name="crate" parent="." instance=ExtResource("3_20opy")]
+position = Vector2(52, 161)
+
+[node name="crate2" parent="." instance=ExtResource("3_20opy")]
+position = Vector2(126, 162)
+
+[node name="crate3" parent="." instance=ExtResource("3_20opy")]
+position = Vector2(126, 162)
+
+[node name="crate4" parent="." instance=ExtResource("3_20opy")]
+position = Vector2(87, 58)

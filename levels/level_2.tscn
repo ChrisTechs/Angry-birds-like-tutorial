@@ -1,0 +1,17 @@
+[gd_scene load_steps=4 format=3 uid="uid://dupl0g2hs0m7k"]
+
+[ext_resource type="Script" uid="uid://lrxaeuipuwdx" path="res://levels/level.gd" id="1_0srwa"]
+[ext_resource type="PackedScene" uid="uid://4si5xviev6n4" path="res://crate.tscn" id="1_pqqg8"]
+[ext_resource type="PackedScene" uid="uid://ce0miwm6bxguw" path="res://fennec_fox.tscn" id="2_0srwa"]
+
+[node name="level_2" type="Node"]
+script = ExtResource("1_0srwa")
+
+[node name="crate" parent="." instance=ExtResource("1_pqqg8")]
+position = Vector2(70, 160)
+
+[node name="crate2" parent="." instance=ExtResource("1_pqqg8")]
+position = Vector2(70, 95)
+
+[node name="fennec_fox" parent="." instance=ExtResource("2_0srwa")]
+position = Vector2(67, 31)
